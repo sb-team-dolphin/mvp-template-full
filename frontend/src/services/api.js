@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 // API Base URL
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+// 프로덕션: 빈 문자열 (같은 ALB 호스트 사용)
+// 로컬 개발: http://localhost:8080
+const API_BASE_URL = process.env.REACT_APP_API_URL || '';
 
 // Axios 인스턴스 생성
 const api = axios.create({
