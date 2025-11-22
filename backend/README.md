@@ -295,3 +295,4 @@ aws logs tail /ecs/myapp-backend --follow
 
 - [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
 - [Maven Documentation](https://maven.apache.org/guides/)
+# Deployment trigger - Sat Nov 22 15:19:00 KST 2025
